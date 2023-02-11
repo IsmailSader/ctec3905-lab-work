@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color:blueviolet;
+    width: 15vw;
+    /* float: right; */
+}
+nav a {
+    background-color: red;
+    color: black;
+    padding: 10px;
+    margin: auto;
+
+
+    transition: background-color 10s;
+}
+nav a:hover {
+    background-color: royalblue;
+}
+header, main {
+    background-color: aqua;
+    overflow: auto;
+}
+main {
+    width: 85vw;
+}
